@@ -28,7 +28,7 @@ La donnée de sondage constitue la donnée d’entrée,  elle  correspond aussi 
 Définition d’un graphe [graph] et d’un segment [edge]
 =====================================================
 
-La corrélation d’une passe  de sondages  à un autre sondage, le long d’un plan (en général plutôt vertical) constitue une coupe (Erreur : source de la référence non trouvéeA).  Afin de définir le plus justement possible en 3D la géométrie des objets géologiques modélisés, les coupes seront de nature pluridirectionnelle, en plan elles formeront un graphe (Erreur : source de la référence non trouvée). Un graphe est composé de segment ou [edge] joignant les nœuds entres eux. 
+La corrélation d’une passe  de sondages  à un autre sondage, le long d’un plan (en général plutôt vertical) constitue une coupe. Afin de définir le plus justement possible en 3D la géométrie des objets géologiques modélisés, les coupes seront de nature pluridirectionnelle, en plan elles formeront un graphe. Un graphe est composé de segment ou [edge] joignant les nœuds entres eux. 
 
 Les graphes sont   non orientés et présentent une  topologie de type homogène.   
 
