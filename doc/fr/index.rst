@@ -192,7 +192,7 @@ Les couches présentent dans la fenêtre couches ne sont pas toujours présenten
 
 .. figure:: images/fig13.png
 
-  Etape n°2 : connecter la base de données. Appuyer sur nouveau. Etape n°3 Créer une nouvelle connexion Post GIS en remplissant les champs comme indiqués. Etape °4 tester la connexion à la base
+  Etape n°2 : Le nom de la base de Données et du projet sont identiques. Connecter la base de données. Appuyer sur nouveau. Etape n°3 Créer une nouvelle connexion Post GIS en remplissant les champs comme indiqués. Etape °4 tester la connexion à la base
 
 
 
@@ -240,11 +240,11 @@ Calcul de la passe minéralisée
 La minéralisation telle qu’elle est utilisée pour une estimation, ou la simple compréhension géologique d’un gisement intègre des contraintes géologiques et technico-économiques via la définition de passes minéralisées ou génératrices sur les sondages disponibles.
 
 Dans le cas du logiciel Albion les passes minéralisées  sont déterminées par :
-    1. la coupure sur la radiométrie normalisée, tc (les AVP exprimés en ppm)
+    1. la coupure sur la radiométrie normalisée, tc (mesures radioémétriques exprimées en ppm)
     2. l’épaisseur minimale d’une passe minéralisée, OC (exprimé en mètres)
     3. l’épaisseur minimale d’un intercalaire stérile, IC (exprimé en mètres)
 
-La détermination des limites des génératrices utilise l’algorithme décrit par J.M. Marino (MARINO et al. 1988). Pour chaque sondage, les limites sont définies en maximisant par programmation dynamique la valeur récupérée :
+La détermination des limites des génératrices utilise l’algorithme décrit par J.M. Marino (MARINO et al. 1988, l'article est dans la doc d'Albion). Pour chaque sondage, les limites sont définies en maximisant par programmation dynamique la valeur récupérée :
 
 .. math::
 
